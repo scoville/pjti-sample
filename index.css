@@ -65,21 +65,22 @@ header .mainImage {
   width: 100px;
   height: auto;
 }
-.about .title {
-  font-size: 14px;
+.about .box {
   position: absolute;
   left: 112px;
   top: 4px;
   bottom: 0;
+  right: 4px;
+}
+.about .title {
+  font-size: 14px;
   font-weight: 600;
 }
 
 .about .description {
+  margin-top: 4px;
   font-size: 11px;
-  color: #888888;
-  position: absolute;
-  left: 112px;
-  bottom: 4px;
+  color: #666;
 }
 
 .menu {
@@ -116,8 +117,10 @@ header .mainImage {
 }
 
 h2.subTitle {
+  margin : 0;
   padding: 2px 8px;
   border-left: 4px solid #ffa014;
+  font-size: 20px;
 }
 
 .information {
