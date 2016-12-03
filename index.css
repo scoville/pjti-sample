@@ -1,6 +1,5 @@
 body {
   color: #fff;
-  background: url(./assets/images/bg.jpg) center top repeat;
   width: 1005;
 }
 header .mainImage {
@@ -72,12 +71,12 @@ header .mainImage {
   bottom: 0;
   right: 4px;
 }
-.about .title {
+.about .box .title {
   font-size: 14px;
   font-weight: 600;
 }
 
-.about .description {
+.about .box .description {
   margin-top: 4px;
   font-size: 11px;
   color: #666;
