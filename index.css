@@ -32,10 +32,6 @@ header .mainImage {
   color: #444;
 }
 
-.tabChild:nth-child(2) {
-  border-left: 1px solid #cccccc;
-}
-
 .tabChild .button {
   position: absolute;
   top: 12px;
@@ -72,16 +68,17 @@ header .mainImage {
 .about .title {
   font-size: 14px;
   position: absolute;
-  left: 114px;
+  left: 112px;
   top: 4px;
   bottom: 0;
+  font-weight: 600;
 }
 
 .about .description {
   font-size: 11px;
   color: #888888;
   position: absolute;
-  left: 114px;
+  left: 112px;
   bottom: 4px;
 }
 
@@ -118,7 +115,7 @@ header .mainImage {
   margin-left: 8px;
 }
 
-.subTitle {
+h2.subTitle {
   padding: 2px 8px;
   border-left: 4px solid #ffa014;
 }
