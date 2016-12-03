@@ -1,0 +1,38 @@
+h1 {
+  padding-left: 8px;
+  font-weight: 600;
+  font-size: 18px;
+  height: 45px;
+  line-height: 45px;
+  background-color: #ebebeb;
+  color: #555;
+}
+ul a {
+  display: block;
+}
+
+ul li {
+  position: relative;
+  height: 60px;
+  border-bottom: 1px solid #ebebeb;
+}
+
+ul li span {
+  padding-left: 8px;
+  line-height: 60px;
+  font-size: 17px;
+  color: #444;
+}
+
+.arrow {
+  position: absolute;
+  right:10px;
+  line-height: 60px;
+  color: #444;
+}
+
+footer {
+  margin-top: 40px;
+  text-align: center;
+}
+
